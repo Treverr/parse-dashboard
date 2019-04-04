@@ -11,7 +11,7 @@ export default function getFileName(name) {
   if (name instanceof Parse.File) {
     return getFileName(name.name());
   }
-  let offset = 37;
+  let offset = 32;
   if (name.indexOf('tfss-') === 0) {
     offset += 5;
   }
